@@ -1,0 +1,176 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 41%, rgba(34, 195, 155, 0.3225665266106442) 100%);
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: hsl(193.15deg 85.04% 15.4%);
+    box-shadow: 0px 2px 5px -1px white;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.logo {
+    width: 10%;
+    height: 65px;
+
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.center {
+    width: 72%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    float: left;
+}
+
+.link {
+    width: 18%;
+    height: 65px;
+
+    float: left;
+}
+
+.nav-logo {
+    color: aliceblue;
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-left: 32px;
+}
+
+.list {
+    line-height: 65px;
+    display: flex;
+}
+
+.list>li {
+    color: aliceblue;
+    list-style: none;
+}
+
+.list>li>a {
+    color: aliceblue;
+    padding: 0 10px;
+    font-size: 17px;
+    font-family: system-ui;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    transform: translateX(240px) translateY(-57px);
+    width: 48px;
+}
+
+.bold {
+    font-weight: 800;
+    transform: translateX(50px) translateY(300px);
+}
+
+.peragef {
+    width: 600px;
+    height: 285px;
+    
+    transform: translateX(113px) translateY(250px);
+}
+
+.hedding {
+    font-size: 39px;
+    color: black;
+    font-family: 'font';
+
+}
+
+.pra {
+    color: black;
+    font-size: 20px;
+    font-family: 'pre';
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'font';
+    src: url(../fonts-20240717T050831Z-001/fonts/lugrasimo/Lugrasimo-Regular.woff);
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url(../fonts-20240717T050831Z-001/fonts/geologica/GeologicaCursive-ExtraLight.woff2);
+}
+
+.more {
+    width: 200px;
+    height: 200px;
+    
+    transform: translateX(0px) translateY(190px);
+}
+
+.btn {
+    width: 129px;
+    height: 51px;
+    color: aliceblue;
+    background-color: #e56b14;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    transform: translateX(-377px) translateY(212px);
+    transition: all 0.5s ease-in-out;
+}
+.cerkal {
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: #e56b14;
+    transform: translateX(313px) translateY(0px);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.img-man {
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.parent {
+    width: 1790px;
+    height: auto;
+
+    transform: translateX(104px) translateY(-128px);
+    display: flex;
+    justify-content: center;
+
+}
+
+.parent:hover .cerkal,
+.parent:hover .btn {
+    background-color: yellow;
+    color : black
+    
+    
+}
+.photo {
+    width: 994px;
+    height: 696px;
+    transform: translateX(-64px) translateY(-173px);
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lugrasimo';
+    src: url('Lugrasimo-Regular.woff2') format('woff2'),
+        url('Lugrasimo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
